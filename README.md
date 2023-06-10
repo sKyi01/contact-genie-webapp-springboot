@@ -3,14 +3,22 @@
 Contact Genie is a web application that allows users to manage their contacts. It provides CRUD (Create, Read, Update, Delete) functionality for contacts, along with various features for authentication, security, and user management.
 
 # Features
-### User Authentication: Contact Genie utilizes Spring Security for user authentication. Users can register, log in, and log out securely.
-# Token-based Verification: Authentication is performed using tokens with an expiration time. This adds an extra layer of security to the application.
-# Change Password: Users can change their passwords within the application to maintain account security.
-# Contact Management: Users can perform CRUD operations on their contacts, including creating new contacts, viewing details, updating information, and deleting contacts.
-# Relational Mapping: The application uses Hibernate for object-relational mapping. It establishes a one-to-many relationship between users and contacts, ensuring data consistency.
-# Validation: Hibernate validation and a Validator dependency are implemented to enforce constraints on data, ensuring data integrity.
-# UI Rendering: Thymeleaf, a server-side Java templating engine, is used for rendering dynamic HTML pages and providing a smooth user interface.
-# Database: Oracle is used as the backend database to store contact and user information reliably.
+### User Authentication: 
+                        Contact Genie utilizes Spring Security for user authentication. Users can register, log in, and log out securely.
+# Token-based Verification:
+                           Authentication is performed using tokens with an expiration time. This adds an extra layer of security to the application.
+# Change Password:
+                  Users can change their passwords within the application to maintain account security.
+# Contact Management:
+                      Users can perform CRUD operations on their contacts, including creating new contacts, viewing details, updating information, and deleting contacts.
+# Relational Mapping: 
+                     The application uses Hibernate for object-relational mapping. It establishes a one-to-many relationship between users and contacts, ensuring data consistency.
+# Validation: 
+              Hibernate validation and a Validator dependency are implemented to enforce constraints on data, ensuring data integrity.
+# UI Rendering: 
+               Thymeleaf, a server-side Java templating engine, is used for rendering dynamic HTML pages and providing a smooth user interface.
+# Database: 
+           Oracle is used as the backend database to store contact and user information reliably.
 # Technologies Used
 Java
 Spring Boot
