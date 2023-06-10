@@ -27,19 +27,27 @@ Spring Security
 Thymeleaf
 Oracle Database
 # Getting Started
-Clone the repository: git clone https://github.com/yourusername/contact-genie.git
+Clone the repository: git clone https://github.com/sKyi01/contact-genie-webapp-springboot.git
+
 Configure the Oracle database and update the application properties with the necessary database credentials.
 Build the project using Maven: mvn clean install
+
 Run the application: mvn spring-boot:run
-Access the application in your browser: http://localhost:8080
+
+Access the application in your browser: http://localhost:3232
+
 # Contributing
 Contributions are welcome! If you'd like to contribute to Contact Genie, please follow these steps:
 
 Fork the repository.
 Create a new branch for your feature: git checkout -b feature-name
+
 Make your changes and commit them: git commit -m 'Add some feature'
+
 Push the changes to your fork: git push origin feature-name
+
 Open a pull request in the original repository.
+
 # License
 This project is licensed under the MIT License.
 
