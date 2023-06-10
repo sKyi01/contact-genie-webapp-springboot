@@ -1,4 +1,4 @@
-# contact-genie-webapp-springboot
+# ***contact-genie-webapp-springboot***
 # Contact Genie
 Contact Genie is a web application that allows users to manage their contacts. It provides CRUD (Create, Read, Update, Delete) functionality for contacts, along with various features for authentication, security, and user management.
 
