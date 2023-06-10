@@ -3,7 +3,7 @@
 Contact Genie is a web application that allows users to manage their contacts. It provides CRUD (Create, Read, Update, Delete) functionality for contacts, along with various features for authentication, security, and user management.
 
 # Features
-# User Authentication: Contact Genie utilizes Spring Security for user authentication. Users can register, log in, and log out securely.
+## User Authentication: Contact Genie utilizes Spring Security for user authentication. Users can register, log in, and log out securely.
 # Token-based Verification: Authentication is performed using tokens with an expiration time. This adds an extra layer of security to the application.
 # Change Password: Users can change their passwords within the application to maintain account security.
 # Contact Management: Users can perform CRUD operations on their contacts, including creating new contacts, viewing details, updating information, and deleting contacts.
