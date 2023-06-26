@@ -1,4 +1,4 @@
-package com.spring.genie.Dao;
+package com.spring.genie.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

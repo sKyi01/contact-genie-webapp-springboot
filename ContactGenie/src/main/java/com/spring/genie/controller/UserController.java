@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.spring.genie.Dao.UserRepository;
+import com.spring.genie.dao.UserRepository;
 import com.spring.genie.entities.ContactDetail;
 import com.spring.genie.entities.User;
 
@@ -33,7 +33,7 @@ public class UserController {
 
 	@ModelAttribute
 	public void handleCommonRequest(Model m, Principal p) {
-		System.out.println("intellij idea");
+		System.out.println("j idea");
 
 		String username = p.getName();
 		System.out.println("USER " + username);
