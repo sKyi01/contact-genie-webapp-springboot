@@ -33,6 +33,7 @@ public class UserController {
 
 	@ModelAttribute
 	public void handleCommonRequest(Model m, Principal p) {
+		System.out.println("intellij idea");
 
 		String username = p.getName();
 		System.out.println("USER " + username);
